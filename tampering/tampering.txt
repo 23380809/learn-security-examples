@@ -1,0 +1,4 @@
+Tampering occurs due to not sanitizing the input data. 
+Can be done by injecting code into the input data.
+Tampering violates the integrity property.
+

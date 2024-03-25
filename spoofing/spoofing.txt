@@ -1,1 +1,6 @@
 Briefly explain the vulnerability and why the secure version prevents the vulnerability.
+
+Spoofing is a type of attack in which an attacker gain access to the system by pretending to be someone else.
+The ways to prevert spoofing are first setting the cookies to httponly and samesite only.
+
+Spoofing violates the Confidentiality property.

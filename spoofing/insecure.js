@@ -37,6 +37,9 @@ app.get("/", (req, res) => {
   <form action="/forget" method="POST">
     <button>Logout</button>
   </form>
+  <form action="/sensitive" method="POST">
+    <button>Access sensitive data</button>
+  </form>
   `)
 })
 

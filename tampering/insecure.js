@@ -30,9 +30,8 @@ app.post("/sensitive", (req, res) => {
 
 app.get("/", (req, res) => {
   let name = "Guest"
-
+  
   if (req.session.user) name = req.session.user
-
   res.send(`
   <h1>Welcome, ${name}</h1>
   <form action="/register" method="POST">
