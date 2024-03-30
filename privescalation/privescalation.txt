@@ -1,0 +1,1 @@
+privescalation is a process that allows a user to run a program with the security privileges of another user, typically the superuser. This is useful for allowing unprivileged users to perform tasks that require superuser privileges. 

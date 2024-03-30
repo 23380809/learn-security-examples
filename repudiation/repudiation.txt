@@ -1,2 +1,8 @@
 - Briefly explain the vulnerability and why the secure version is better at preventing repudiation than the insecure version.
+Repudiation is the act of denying that an event occurred. In the context of web applications,
+repudiation can occur when a user denies that they performed a particular action, such as making a purchase or sending a message. This can be a problem for web applications, as it can lead to disputes between users and the application owner.
+
+
 - What additional security mechanisms can you incorporate to prevent such attacks?
+To prevent repudiation attacks, web applications can incorporate additional security mechanisms 
+such as logging and digital signatures.
